@@ -5,6 +5,7 @@ const Navbar = () => {
 
     const navMenu = <>
     <li><Link href='/'>Home</Link></li>
+    <li><Link href='/post'>Post</Link></li>
     <li><Link href='/about'>About</Link></li>
     <li><Link href='/services'>Service</Link></li>
     <li><Link href='/contact'>Contact</Link></li>

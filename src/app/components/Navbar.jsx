@@ -4,10 +4,10 @@ import React from 'react';
 const Navbar = () => {
 
     const navMenu = <>
-    <li><Link href=''>Home</Link></li>
-    <li><Link href=''>About</Link></li>
-    <li><Link href=''>Service</Link></li>
-    <li><Link href=''>Contact</Link></li>
+    <li><Link href='/'>Home</Link></li>
+    <li><Link href='/about'>About</Link></li>
+    <li><Link href='/services'>Service</Link></li>
+    <li><Link href='/contact'>Contact</Link></li>
     </>
     return (
         <div className='bg-white shadow'>
@@ -37,7 +37,7 @@ const Navbar = () => {
                     <a className="text-xl">NextJS</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu menu-horizontal px-1 gap-4">
                        {navMenu}
                     </ul>
                 </div>
